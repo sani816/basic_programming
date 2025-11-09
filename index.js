@@ -11,3 +11,13 @@ function prime_Num(num){
   }
 res=prime_Num(9)
 console.log(res)
+
+
+function Even_Odd(num){
+    if(num%2==0){
+        return true
+    }
+    return false
+}
+res=Even_Odd(3)
+console.log(res)
